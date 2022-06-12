@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(61, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(241, 228, 212);
+    font-size: 5rem;
+    margin-bottom: 1.3rem;
+
+
+}
+
+.digit {
+    color: rgb(241, 228, 212);
+    font-size: 9rem;
+
+}
+
+.txt {
+    color: rgb(241, 228, 212);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.8rem 2.5rem;
+    font-size: 1.4rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+    cursor: pointer;
+}
+
+#startbtn {
+
+    background-color: rgb(208, 49, 49);
+}
+
+#stopbtn {
+
+    background-color: rgb(141, 197, 30);
+}
+
+#resetbtn {
+
+    background-color: blueviolet;
+}
